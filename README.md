@@ -19,7 +19,7 @@ git clone https://github.com/volnet/volnet-jekyll.git
 
 2. 运行Jekyll
 
-这里使用Docker来运行。Dockerfile见源文件夹。
+这里使用Docker来运行。[Dockerfile](Dockerfile)见源文件夹。
 
 ```
 docker run -it -p 4000:4000 -v /home/parallels/jekyll/volnet-jekyll/:/srv/jekyll volnet/myblog_jekyll
