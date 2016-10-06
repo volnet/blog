@@ -82,11 +82,11 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
+        title: "Volnet's cnblogs",
+        href: "http://volnet.cnblogs.com"
     },{
-        title: "Foo",
-        href: "#"
+        title: "Volnet's Email",
+        href: "mailto:volnet@tom.com"
     },{
         title: "Bar",
         href: "#"

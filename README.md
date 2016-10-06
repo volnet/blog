@@ -24,3 +24,13 @@ git clone https://github.com/volnet/volnet-jekyll.git
 ```
 docker run -it -p 4000:4000 -v /home/parallels/jekyll/volnet-jekyll/:/srv/jekyll volnet/myblog_jekyll
 ```
+
+3. 启用GitHub Pages，基于项目的模式
+
+参考[这里](http://jekyllcn.com/docs/github-pages/)
+
+```
+git branch -c gh-pages
+```
+
+将项目Jekyll内容放在`gh-pages`分支上。则可以使用`http://<username>.github.io/<project>/`访问，如本文所在的网站：`http://volnet.github.io/blog`
