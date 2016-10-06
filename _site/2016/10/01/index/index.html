@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="volnet.github.io">
+    <meta name="keyword"  content="coder,volnet,blog">
+    <link rel="shortcut icon" href="/volnet/img/favicon.ico">
+
+    <title>欢迎来到V的博客 - V的博客 | V's Blog</title>
+
+    <link rel="canonical" href="http://volnet.github.io/volnet/2016/10/01/index/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/volnet/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/volnet/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/volnet/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="http://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/volnet/">V的博客 | V's Blog</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/volnet/">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/volnet/about/">About</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/volnet/tags/">Tags</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/volnet/img/post-bg-2015.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/volnet/img/post-bg-2015.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/volnet/tags/#生活" title="生活">生活</a>
+                        
+                    </div>
+                    <h1>欢迎来到V的博客</h1>
+                    
+                    
+                    <h2 class="subheading"> "Hello World, Hello Blog"</h2>
+                    
+                    <span class="meta">Posted by volnet on October 1, 2016</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<h1 id="v">欢迎来到V的博客</h1>
+
+<blockquote>
+  <p>创建于：2016-03-26</p>
+</blockquote>
+
+<p>做个人网站大概已经是十几年前的事情了，那个时候互联网还处在拨号的时代，在虎翼网（51.net）上，注册了个ftp空间，弄了个二级域名，借着网页三剑客粗制滥造的html静态页面，就算上线了。</p>
+
+<p>后来博客开始流行，各大门户都有了自己的博客系统，还有专门的博客网站。有时候写写生活，有时候写写技术研究，乐此不疲地奔忙在各大网站，现在看来，荒废的也不少。最后坚持下来的还是博客园的（<a href="http://volnet.cnblogs.com">个人主页</a>）。
+回想起坚持下来的原因，总结起来大概是：</p>
+
+<ul>
+  <li>专业的领域：讨论技术</li>
+  <li>同类的人群：以兴趣为标签的技术社群</li>
+  <li>足够多的关注：博客园有个类似门户的首页，我们在它的首页上发布自己认为很棒的文章，并且获得很多的关注，对于一名内容制造者来说，被分享以及充分讨论，是非常有利于激励自己坚持的理由，而博客园不大不小的“人流量”，恰好让你的文章发布到首页之后大概能获得一天的关注。</li>
+</ul>
+
+<p>随着博客的兴起，rss的订阅工具也开始增多，人们的阅读方式从传统门户转移到了自媒体平台（博客），慢慢地，博客做的好的人，变成了大V，变成了这个时代的思想家，借助着互联网这种新型的信息传递媒介，传递到千家万户，直到有一天<a href="http://twitter.com/volnet">Twitter</a>来了，自媒体er们发现了一个更便捷的社交方式。而同时代的移动互联网也推波助澜了整个事情。
+随之而来的马上就是各个博客网站的倒下，即便活下来的在内容创新上也大不如前。直到GoogleReader像一个巨人一样轰然倒下，正式宣告了博客作为个人媒体的表现形式退出了特定的历史舞台。</p>
+
+<p><a href="http://www.facebook.com">Facebook</a>和<a href="http://www.twitter.com">Twitter</a>以一种全新的方式组织了人和人之间沟通的方式。在越发强调个体存在感的时代，人们被鼓励将一切的一切都搬到网上，每个人都形成了以自己为中心的一个点，再由社交网络汇聚成一张大网，这种近似现实生活的方式，成为新的代表（这件事大概也已经有些年头了）
+这种<strong>分而治之</strong>的思想，随着整个生态体系的发展而愈发强大。以前内容和评论几乎是一个内容网站必须去做的两个部分，现在呢？评论直接引用<a href="http://volnet.disqus.com">Disqus</a>即可，根本不用自己动手。
+然后以前你在A网站发表的评论，你自己都不记得了，但是现在你可以在任意网站上用Twitter账号发表观点，内容链接作为反向定位符，成为了你Twitter内容的一部分，而你的评论则可以成为你的一条推特，马上分享给你的followers。
+你不再是在单一网站内愉快的玩耍，而是不论你在哪里，你都和整个世界在一起。</p>
+
+<p>让我们一起从个人主页这个古老又不失新意的领域来回顾一下它的发展历程。</p>
+
+<p>ftp空间建站</p>
+
+<p>-&gt; 博客网站（内容、评论、站点内社交）</p>
+
+<p>-&gt; VPS（虚拟主机）+WebServer+站点内社交</p>
+
+<p>-&gt; 内容（Markdown+Github）+纯评论系统（Disqus）+全平台社交（Facebook/Twitter）</p>
+
+<p>整个互联网都在让自己做更专一的事情：</p>
+
+<ul>
+  <li>视频：youtube youku</li>
+  <li>微博：twitter weibo</li>
+  <li>SNS：Facebook</li>
+  <li>评论：Disqus</li>
+  <li>版本：Github</li>
+  <li>实时社交：Wechat Whatsapp</li>
+  <li>Note：Evernote OneNote</li>
+  <li>地图：GoogleMaps</li>
+  <li>C2C：taobao ebay</li>
+  <li>B2C：amazon jd</li>
+  <li>快递：sf-express dhl FedEx</li>
+  <li>Pay：alipay tenpay applepay</li>
+  <li>出租：UBer DiDi</li>
+  <li>照片：Instgram Ficker</li>
+  <li>美食：dianping</li>
+  <li>LBS：foursquare</li>
+  <li>……</li>
+</ul>
+
+<p>因为个人做了几年企业软件，又做了几年互联网，又回来做了很长一段时间的企业软件，整个时代正在以很快又看似不快的速度在发生着裂变。也能看到企业主们看到了信息技术在提高企业生产力方面所花费的经历也是在逐步提升，面对着互联网开始变成了一个盈利的恶魔，他们恨不得第二天就将资本全部投向互联网。</p>
+
+<p>一个比较明显的感触是，现在在企业软件开发领域，要想找到靠谱优秀的年轻人来共事，已经是个很难的事情了，什么叫人才荒，当你到用的时候，才能深刻体会。</p>
+
+<p>企业软件是不是已经没有需求了呢？这个市场毕竟也是被资本驱动的，拥有巨大且广阔的空间的市场。至于是不是现在这些传统企业正在做的“传统企业软件”，一套又一套的ERP系统呢，还是一些在各专业领域更专业的垂直领域呢？先不说我们是否能让那些有志青年拥抱企业软件开发，也许我们就不再需要他们了，因为，高度组件化、服务化的各种功能，正在让企业软件发生一场变革。</p>
+
+<p>企业软件的开发是否仍然还是仅使用“项目”的组织形式来发展呢？是否考虑引入交叉的企业组织形式，如何鼓励企业内创新，如何创造能够改变业务部门之间协作模式的软件系统呢？</p>
+
+
+
+                <hr>
+
+                
+                <!-- 多说 Share start -->
+                </style>
+                <div class="ds-share"
+                    style="text-align: right"
+                    data-thread-key="/2016/10/01/index"
+                    data-title="欢迎来到V的博客"
+                    data-url="http://volnet.github.io/volnet/2016/10/01/index/"
+                    data-images="http://volnet.github.io/volnet/img/post-bg-2015.jpg"
+                    data-content="欢迎来到V的博客
+
+
+  创建于：2016-03-26
+
+
+做个人网站大概已经是十几年前的事情了，那个时候互联网还处在拨号的时代，在虎翼网（51.net）... | V的博客 | V's Blog " >
+                    <div class="ds-share-inline">
+                      <ul  class="ds-share-icons-16">
+                        <li data-toggle="ds-share-icons-more"><a class="ds-more" href="#">分享到：</a></li>
+                        <li><a class="ds-wechat flat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+                        <li><a class="ds-weibo flat" href="javascript:void(0);" data-service="weibo">微博</a></li>
+                        <li><a class="ds-douban flat" href="javascript:void(0);" data-service="douban">豆瓣</a></li>
+                      </ul>
+                      <div class="ds-share-icons-more">
+                      </div>
+                    </div>
+                <hr>
+                </div>
+                <!-- 多说 Share end-->
+                
+
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/volnet/2015/09/22/js-version/" data-toggle="tooltip" data-placement="top" title="Example Post">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                </ul>
+
+
+                
+                <!-- 多说评论框 start -->
+                <div class="comment">
+                    <div class="ds-thread"
+                        data-thread-key="/2016/10/01/index"
+                        data-title="欢迎来到V的博客"
+                        data-url="http://volnet.github.io/volnet/2016/10/01/index/" >
+                    </div>
+                </div>
+                <!-- 多说评论框 end -->
+                
+
+                
+
+            </div>
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="/volnet/tags/#生活" title="生活" rel="2">
+                                    生活
+                                </a>
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+                				<a href="/volnet/tags/#前端开发" title="前端开发" rel="3">
+                                    前端开发
+                                </a>
+                            
+        				
+                            
+                				<a href="/volnet/tags/#JavaScript" title="JavaScript" rel="3">
+                                    JavaScript
+                                </a>
+                            
+        				
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://huangxuan.me">Hux Blog</a></li>
+                    
+                        <li><a href="#">Foo</a></li>
+                    
+                        <li><a href="#">Bar</a></li>
+                    
+                        <li><a href="#">Example Friends</a></li>
+                    
+                        <li><a href="#">It helps SEO</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    // dynamic User by Hux
+    var _user = 'gongcen';
+
+    // duoshuo comment query.
+    var duoshuoQuery = {short_name: _user };
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+<!-- 多说公共JS代码 end -->
+
+
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+                    <li>
+                        <a href="https://twitter.com/volnet">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/gongcen">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://weibo.com/gongcen">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+
+                    
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/volnet.gong">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/volnet">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; V的博客 | V's Blog 2016
+                    <br>
+                    Theme by <a href="http://huangxuan.me">Hux</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="91px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/volnet/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/volnet/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/volnet/js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- 
+     Because of the native support for backtick-style fenced code blocks 
+     right within the Markdown is landed in Github Pages, 
+     From V1.6, There is no need for Highlight.js, 
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/    
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("http://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+
+<!-- Image to hack wechat -->
+<img src="/volnet/img/icon_wechat.png"" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>
