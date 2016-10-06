@@ -5,8 +5,8 @@ header-img: img/home-bg.jpg
 email: volnet@tom.com
 description: "volnet.github.io"
 keyword: "coder,volnet,blog"
-url: "http://volnet.github.io/volnet-jekyll"              # your host, for absolute URL
-baseurl: "/volnet-jekyll"         # for example, '/blog' if your blog hosted on 'host/blog'
+url: "http://volnet.github.io/blog"              # your host, for absolute URL
+baseurl: "/blog"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
